@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pat"></div>
+    <img class="bg" id="bgimg">
+    <div class="cont" id="startcont">
+        <div class="NameContainer">
+            <span class="EnterNameSpan">Enter your Name and Surname below</span>
+            <input type="text" class="NameInput" id="NameInput">
+        </div>
+        <div class="selectionContainer">
+            <input type="range" value="1" min="1" max="3" class="inp" id="inp"/>
+            <div class="selectBar" id="selectBar"></div>
+            <span class="numbOfQuestions" id="numbOfQuestions">43545143</span>
+        </div>
+        <div class="bhand" id="start">
+            <div class="butn s"><span class="spb">Start</span></div>
+        </div>
+    </div>
+    <div class="cont" id="restartcont">
+        <div class="bhand" id="restart">
+            <div class="butn r"><span class="spb">Play again</span></div>
+        </div>
+    </div>
+
+    <div class="cont bigr" id="cont">
+        <div class="bhand" id="a">
+            <div class="butn a"><span class="spb" id="aa"></span></div>
+        </div>
+        <div class="bhand" id="b">
+            <div class="butn b"><span class="spb" id="bb"></span></div>
+        </div>
+        <div class="bhand" id="e">
+            <div class="butn c"><span class="spb" id="ee"></span></div>
+        </div>
+        <div class="bhand" id="c">
+            <div class="butn d"><span class="spb" id="cc"></span></div>
+        </div>
+    </div>
+    <div class="topper" id="topper">
+        <div class="progb" id="progb"></div>
+    </div>
+    <div class="question" id="question">
+        <span class="sp" id="sp">Welcome to the gaming trivia!</span>
+        <span class="htxt" id="htxt">Enter your name and surname, chose the difficulty and click Start to begin the quiz</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
